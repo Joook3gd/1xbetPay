@@ -106,7 +106,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "Etisalat Cash"){
-            imgBox.setAttribute("src", "https://itsexito.github.io/payVen0m/assets/images/etisalat.svg");
+            imgBox.setAttribute("src", "https://github.com/itsexito/payVen0m/blob/main/assets/images/etisalat.svg");
             imgBox.style.width = "120px";
             KindText.innerText = "اتصالات";
             numberF.innerText = ETi;
@@ -124,7 +124,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "Orange Cash"){
-            imgBox.setAttribute("src", "https://itsexito.github.io/payVen0m/assets/images/orange.png");
+            imgBox.setAttribute("src", "https://github.com/itsexito/payVen0m/blob/main/assets/images/orange.png");
             imgBox.style.width = "200px";
             KindText.innerText = "اورنج";
             numberF.innerText = Ora;
@@ -142,7 +142,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "We pay Egypt"){
-            imgBox.setAttribute("src", "https://itsexito.github.io/payVen0m/assets/images/wepay.png");
+            imgBox.setAttribute("src", "https://github.com/itsexito/payVen0m/blob/main/assets/images/wepay.png");
             imgBox.style.width = "50px";
             KindText.innerText = "وي";
             numberF.innerText = We;
@@ -160,7 +160,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else  if(textPay[y].innerText ==  "Smart Wallet"){
-            imgBox.setAttribute("src", "https://itsexito.github.io/payVen0m/assets/images/cash/smart_wallet.png");
+            imgBox.setAttribute("src", "https://github.com/itsexito/payVen0m/blob/main/assets/images/cash/smart_wallet.png");
             imgBox.style.width = "90px";
             KindText.innerText = "المحفظة الذكية للدفع هن";
             numberF.innerText = sW;
