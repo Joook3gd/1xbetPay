@@ -162,7 +162,7 @@ for(let y = 0; y < elementPay.length; y++){
         } else  if(textPay[y].innerText ==  "Smart Wallet"){
             imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/cash/smart_wallet.png");
             imgBox.style.width = "90px";
-            KindText.style.fontSize = "13.5px";
+            KindText.style.fontSize = "11px";
             KindText.innerText = "المحفظة الذكية للدفع هن";
             numberF.innerText = sW;
             youT.style.display = "none";
