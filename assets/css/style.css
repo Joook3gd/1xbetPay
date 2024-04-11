@@ -580,7 +580,7 @@ body {
 
 @media (min-width: 320px) {
     .section img {
-        width: 40px;
+        width: 65px;
     }
 }
 
@@ -589,7 +589,7 @@ body {
         grid-template-columns: repeat(3, 1fr);
     }
     .section img {
-        width: 75px;
+        width: 80px;
     }
 }
 
