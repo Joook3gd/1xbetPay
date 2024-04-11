@@ -373,14 +373,14 @@ body {
     margin: 10px 5px;
     display: flex;
     justify-content: flex-start;
-    gap: 0 5px;
+    gap: 0 3px;
     align-items: center;
 }
 
 .numberCash span:not(:last-child) {
     color: #2d3b52;
     font-weight: bolder;
-    font-size: 1.6rem !important;
+    font-size: 1.6rem;
 }
 
 .numberCash img {
