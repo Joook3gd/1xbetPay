@@ -399,9 +399,9 @@ body {
 .btnSubmit {
     background-color: #709631;
     text-align: center;
-    padding: 5px 0;
+    padding: 10px 0;
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     cursor: pointer;
     position: relative;
     z-index: -1;
@@ -534,8 +534,7 @@ body {
 .sumLoad {
     position: relative;
     width: 100%;
-    height: max-content;
-    margin: 10px 0;
+    height: 30px;
 }
 
 .lode {
@@ -578,7 +577,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media (min-width: 320px) {
     .section img {
         width: 60px;
     }
@@ -592,5 +591,4 @@ body {
         width: 75px;
     }
 }
-
 
