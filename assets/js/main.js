@@ -93,7 +93,6 @@ for(let y = 0; y < elementPay.length; y++){
             KindText.innerText = "فودافون";
             numberF.innerText = Vod;
             youT.style.display = "block";
-            payBox.style.height = "90%";
             youT.setAttribute("src", "https://www.youtube.com/embed/w905fnJ7zhc");
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
@@ -112,7 +111,6 @@ for(let y = 0; y < elementPay.length; y++){
             KindText.innerText = "اتصالات";
             numberF.innerText = ETi;
             youT.style.display = "block";
-            payBox.style.height = "90%";
             youT.setAttribute("src", "https://www.youtube.com/embed/NCpl4ziCRQs");
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
@@ -131,7 +129,6 @@ for(let y = 0; y < elementPay.length; y++){
             KindText.innerText = "اورنج";
             numberF.innerText = Ora;
             youT.style.display = "block";
-            payBox.style.height = "90%";
             youT.setAttribute("src", "https://www.youtube.com/embed/B9lzEz7_SR4");
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
@@ -150,7 +147,6 @@ for(let y = 0; y < elementPay.length; y++){
             KindText.innerText = "وي";
             numberF.innerText = We;
             youT.style.display = "block";
-            payBox.style.height = "90%";
             youT.setAttribute("src", "https://www.youtube.com/embed/w905fnJ7zhc");
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
@@ -170,7 +166,6 @@ for(let y = 0; y < elementPay.length; y++){
             numberF.innerText = sW;
             youT.style.display = "none";
             spanCash.innerHTML = "";
-            payBox.style.height = "max-content";
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
                 setTimeout(()=> {
