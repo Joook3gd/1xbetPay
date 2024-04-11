@@ -578,6 +578,11 @@ body {
     display: none;
 }
 
+.s-one .box:nth-child(6),
+.s-six .box:nth-child(2) {
+    font-size: 1.3rem;
+}
+
 @media (min-width: 320px) {
     .section img {
         width: 70px;
