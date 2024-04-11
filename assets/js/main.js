@@ -88,7 +88,7 @@ submitBtn.onclick = ()=> {
 for(let y = 0; y < elementPay.length; y++){
     elementPay[y].onclick = _ => {
         if(textPay[y].innerText ==  "Vodafone"){
-            imgBox.setAttribute("src", "https://itsexito.github.io/payVen0m/assets/images/vodafone.png");
+            imgBox.setAttribute("src", "https://github.com/itsexito/payVen0m/blob/main/assets/images/vodafone.png");
             imgBox.style.width = "80px";
             KindText.innerText = "فودافون";
             numberF.innerText = Vod;
