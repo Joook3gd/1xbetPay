@@ -319,7 +319,7 @@ body {
     width: 95%;
     margin: 0 auto;
     background-color: #ededed;
-    height: 90%;
+    height: max-content;
     border-radius: 5px;
     transition: 0.5s;
     overflow-x: hidden;
