@@ -88,7 +88,7 @@ submitBtn.onclick = ()=> {
 for(let y = 0; y < elementPay.length; y++){
     elementPay[y].onclick = _ => {
         if(textPay[y].innerText ==  "Vodafone"){
-            imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/vodafone.png");
+            imgBox.setAttribute("src", "../assets/images/vodafone.png");
             imgBox.style.width = "80px";
             KindText.innerText = "فودافون";
             numberF.innerText = Vod;
@@ -106,7 +106,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "Etisalat Cash"){
-            imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/etisalat.svg");
+            imgBox.setAttribute("src", "../assets/images/etisalat.svg");
             imgBox.style.width = "120px";
             KindText.innerText = "اتصالات";
             numberF.innerText = ETi;
@@ -124,7 +124,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "Orange Cash"){
-            imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/orange.png");
+            imgBox.setAttribute("src", "../assets/images/orange.png");
             imgBox.style.width = "200px";
             KindText.innerText = "اورنج";
             numberF.innerText = Ora;
@@ -142,7 +142,7 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else if(textPay[y].innerText ==  "We pay Egypt"){
-            imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/wepay.png");
+            imgBox.setAttribute("src", "../assets/images/wepay.png");
             imgBox.style.width = "50px";
             KindText.innerText = "وي";
             numberF.innerText = We;
@@ -160,12 +160,13 @@ for(let y = 0; y < elementPay.length; y++){
                 });
             }
         } else  if(textPay[y].innerText ==  "Smart Wallet"){
-            imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/cash/smart_wallet.png");
+            imgBox.setAttribute("src", "../assets/images/cash/smart_wallet.png");
             imgBox.style.width = "90px";
             KindText.innerText = "المحفظة الذكية للدفع هن";
             numberF.innerText = sW;
             youT.style.display = "none";
             spanCash.innerHTML = "";
+            payBox.style.height = "auto";
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
                 setTimeout(()=> {
