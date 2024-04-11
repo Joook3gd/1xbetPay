@@ -209,3 +209,15 @@ numberlenght.innerText = numberCash.value.length + "/11"
 numberCash.onkeyup = ()=> {
     numberlenght.innerText = numberCash.value.length + "/11"
 }
+// don't resize screen
+setInterval(()=> {
+    let currentWidth = window.innerWidth;
+    let currentHeight = window.innerHeight;
+    window.addEventListener("resize", ()=> {
+        if (window.innerWidth !== currentWidth || window.innerHeight !== currentHeight) {
+            window.location.reload();
+            window.innerWidth = currentWidth;
+            window.innerHeight = currentHeight;
+        }
+    });
+},500)
