@@ -578,18 +578,19 @@ body {
     display: none;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
     .section img {
-        width: 65px;
+        width: 60px;
     }
 }
 
-@media (min-width: 321px) and (max-width: 425px) {
+@media (min-width: 425px) {
     .grid-list {
         grid-template-columns: repeat(3, 1fr);
     }
     .section img {
-        width: 80px;
+        width: 75px;
     }
 }
+
 
