@@ -170,7 +170,7 @@ for(let y = 0; y < elementPay.length; y++){
             numberF.innerText = sW;
             youT.style.display = "none";
             spanCash.innerHTML = "";
-            payBox.style.height = "auto";
+            payBox.style.height = "max-content";
             copyImg.onclick = ()=> {
                 CopyD.style.display = "inline-block";
                 setTimeout(()=> {
