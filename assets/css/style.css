@@ -399,7 +399,8 @@ body {
 .btnSubmit {
     background-color: #709631;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
+    marign: 8px 0;
     color: #fff;
     font-size: 1.4rem;
     cursor: pointer;
