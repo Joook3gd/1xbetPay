@@ -65,7 +65,7 @@ submitBtn.onclick = ()=> {
         setTimeout(()=> {
             inputMoney.style.borderColor = "rgba(0,0,0,0.4)";
         },1000)
-    } else if (nbCash.value == "" || nbCash.value.length < 11) {
+    } else if (nbCash.value == "" || nbCash.value.length < 11 ||  nbCash.value.length > 11) {
         nbCash.style.borderColor = "#f00";
         setTimeout(()=> {
             nbCash.style.borderColor = "rgba(0,0,0,0.4)";
