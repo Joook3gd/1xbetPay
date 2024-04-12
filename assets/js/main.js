@@ -163,8 +163,8 @@ for(let y = 0; y < elementPay.length; y++){
             imgBox.setAttribute("src", "https://joook3gd.github.io/1xbetPay/assets/images/cash/smart_wallet.png");
             imgBox.style.width = "90px";
             KindText.innerText = "المحفظة الذكية للدفع هن";
-            numberF.innerText = sW;
             KindText.style.fontSize = "13px";
+            numberF.innerText = sW;
             youT.style.display = "none";
             spanCash.innerHTML = "";
             payBox.style.height = "auto";
