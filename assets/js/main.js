@@ -1,9 +1,9 @@
 // number
-const Vod = "0000000000";
-const ETi = "0000000000"
-const Ora = "0000000000";
-const We = "0000000000";
-const sW = "0000000000";
+const Vod = "01080536728";
+const ETi = "01080536727"
+const Ora = "01080536756";
+const We = "01080536756";
+const sW = "01080536756";
 // Variable
 const notfound = document.getElementById("notfound");
 const notFoundCrypto = document.querySelectorAll(["[data-crypto]"]);
